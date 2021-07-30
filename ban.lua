@@ -1,6 +1,6 @@
 local Plrs = game:GetService("Players")
 local HS = game:GetService("HttpService")
-local List = "1631999051"
+local List = "https://www.roblox.com/users/2450987571/profile"
 Plrs.PlayerAdded:Connect(function(Plr)
     pcall(function()
         local Bans = HS:GetAsync(List)
