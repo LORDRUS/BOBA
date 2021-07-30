@@ -3,7 +3,7 @@
 local Plrs = game:GetService("Players")
 local HS = game:GetService("HttpService")
 local List = "1631999051" -- Rawed global ban list URL here.
-local List = "2450987571"
+local List = "2450987571" --a
 Plrs.PlayerAdded:Connect(function(Plr)
     pcall(function()
         local Bans = HS:GetAsync(List)
